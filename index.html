@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Shells</title>
+  <link rel="icon" href="assets/shell2.gif"
+  <meta name="viewport" content="initial-scale=1">
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+  <script src="./js/jquery.ui.touch-punch.min.js"></script>
+  <script src="js/jquery.ripples.js"></script>
+  <script>
+
+
+
+</script>
+</head>
+
+<body>
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Index</button>
+    <div class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="page2.html">Waves</a>
+      <a href="research.html">Research</a>
+    </div>
+  </div>
+
+
+<script>
+
+$(document).ready(function() {
+	try {
+		$('body').ripples({
+			resolution: 512,
+			dropRadius: 20, //px
+			perturbance: 0.01,
+		});
+	}
+	catch (e) {
+		$('.error').show().text(e);
+	}
+
+	// Automatic drops
+	setInterval(function() {
+		var $el = $('body');
+		var x = Math.random() * $el.outerWidth();
+		var y = Math.random() * $el.outerHeight();
+		var dropRadius = 20;
+		var strength = 0.04 + Math.random() * 0.04;
+
+		$el.ripples('drop', x, y, dropRadius, strength);
+	}, 400);
+});
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
