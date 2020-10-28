@@ -10,8 +10,8 @@ html {
 body {
  background: white;
  color: black;
- background-image: url("../assets/background/img3.jpg");
- overflow: scroll;
+ /* background-image: url("../assets/background/img3.jpg");
+ overflow: scroll; */
  font-family:"Courier New", Courier, monospace;
  color: white;
 }
@@ -23,6 +23,21 @@ h1 {
  font-family: "Courier New", Courier, monospace;
  font-size: 12px;
 }
+
+
+
+
+div.bg-img {
+    background-image: url("../assets/background/img3.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-color: blue;
+    border: 1px solid #aaa;
+    width: 250px;
+    height: 250px;
+    margin: 25px auto;
+}
+
 
 
 
