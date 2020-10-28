@@ -1,28 +1,33 @@
 
- html {
-   scroll-behavior: auto;
-
-   margin:0;
-   padding:0;
- }
+html {
+  scroll-behavior: auto;
+/*   height: 2000px; */
+  margin:0;
+  padding:0;
+}
 
 
 body {
-  background-color: grey;
-  color: white;
+ background: white;
+ color: black;
+ background-image: url("../assets/background/img4.jpg");
+ background-size: cover;
+ width: 100%;
+  background-repeat: repeat;
+ overflow: scroll;
+ font-family:"Courier New", Courier, monospace;
+ color: white;
 }
 
 
-.backgroundphoto {
-  color: black;
-  height: 4000px;
-  width: 43000px;
-  /*background-size: cover;*/
-  /*  width: 100%; */
-  /*  background-repeat: repeat; */
-  overflow: scroll;
-  font-family:"Courier New", Courier, monospace;
+
+h1 {
+ color: black;
+ font-family: "Courier New", Courier, monospace;
+ font-size: 12px;
 }
+
+
 
 p {
   font-family:"Courier New", Courier, monospace;
