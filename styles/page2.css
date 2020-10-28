@@ -11,11 +11,10 @@ body {
  background: white;
  color: black;
   background-image: url("../assets/background/img3.jpg");
- overflow: scroll; 
+ overflow: scroll;
  font-family:"Courier New", Courier, monospace;
  color: white;
 }
-
 
 
 h1 {
@@ -23,7 +22,6 @@ h1 {
  font-family: "Courier New", Courier, monospace;
  font-size: 12px;
 }
-
 
 
 p {
@@ -44,6 +42,18 @@ body {
     -ms-user-select: none;
     user-select: none;
 }
+
+
+
+#show-credits {
+  left: 20;
+  position: absolute;
+  z-index: 5;
+  font-family: "Courier New", Courier, monospace;
+  font-size: var(--font-size);
+  margin: 10px 15px 10px 15px;
+}
+
 
 
 /*Dropdown Button */
