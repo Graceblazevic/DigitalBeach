@@ -11,14 +11,9 @@ body {
  background: white;
  color: black;
  background-image: url("../assets/background/img4.jpg");
- background-size: cover;
- width: 100%;
-  background-repeat: repeat;
  overflow: scroll;
  font-family:"Courier New", Courier, monospace;
  color: white;
- hight: 5000px;
- width: 4000px;
 }
 
 
