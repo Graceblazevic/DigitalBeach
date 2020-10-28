@@ -29,6 +29,26 @@ p {
 }
 
 
+element.style {
+    display: block;
+}
+
+#credits {
+    position: absolute;
+    width: 286px;
+    height: auto;
+    background: rgba(255,255,255, 0.6);
+    z-index: 4;
+    left: 20px;
+    top: 40px;
+    padding: 15px;
+    display: none;
+}
+
+
+
+
+
 #show-credits {
     left: 70;
     position: absolute;
