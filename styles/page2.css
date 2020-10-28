@@ -2,6 +2,7 @@
  html {
    scroll-behavior: auto;
    height: 2000px;
+   width: 2000px;
    margin:0;
    padding:0;
  }
@@ -11,7 +12,7 @@ body {
   background: url("../assets/background/water8.jpeg");
   color: black;
   background-size: cover;
-  width: 100%;
+/*  width: 100%; */
   background-repeat: repeat;
   overflow: scroll;
   font-family:"Courier New", Courier, monospace;
