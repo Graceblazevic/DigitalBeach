@@ -10,8 +10,8 @@ html {
 body {
  background: white;
  color: black;
- /* background-image: url("../assets/background/img3.jpg");
- overflow: scroll; */
+  background-image: url("../assets/background/img3.jpg");
+ overflow: scroll; 
  font-family:"Courier New", Courier, monospace;
  color: white;
 }
@@ -36,64 +36,14 @@ p {
   top:200px
 }
 
-
-#map {
-    position: relative;
-    width: 300px;
-    height:300px;
-    overflow:hidden;
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-
-.map-canvas {
-    position: absolute;
-    background: url(http://lab.qacode.com/map/map.jpg);
-    width: 883px;
-    height: 519px;
-}
-
-#map .ui-draggable-dragging {
-    cursor: -moz-grabbing;
-    cursor: -webkit-grabbing;
-    cursor: grabbing;
-}
-
-.map-marker {
-    width: 0px;
-    height: 0px;
-    background-color: red;
-    border: 3px solid red;
-    -moz-border-radius: 2px;
-    border-radius: 3px;
-    overflow: visible;
-}
-
-.map-marker span {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    width: 100px;
-}
-
-.google-pin {
-    background: url(http://wiki.fishcakes.biz/images/Google_Maps_Marker.png) no-repeat;
-    height: 37px;
-    width: 34px;
-    cursor: -moz-grab;
-    cursor: -webkit-grab;
-    cursor: grab;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*Dropdown Button */
