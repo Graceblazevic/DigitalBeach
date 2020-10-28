@@ -30,7 +30,7 @@ p {
 
 
 #show-credits {
-    left: 0;
+    left: 70;
     position: absolute;
     z-index: 15;
     font-family: 'Oroban-Masuria';
