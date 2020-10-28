@@ -29,6 +29,23 @@ p {
 }
 
 
+#show-credits {
+    left: 0;
+    position: absolute;
+    z-index: 5;
+    font-family: 'Oroban-Masuria';
+    font-size: var(--font-size);
+    margin: 10px 15px 10px 15px;
+}
+
+p, a {
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: 'Oroban-Masuria';
+}
+
+
+
 
 
 
