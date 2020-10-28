@@ -1,8 +1,8 @@
 
  html {
    scroll-behavior: auto;
-   height: 12000px;
-   width: 12000px
+   height: 22990px;
+   width: 23050px
    margin:0;
    padding:0;
  }
@@ -30,7 +30,24 @@ p {
 }
 
 
+element.style {
+    transform: translate(-17250px, -21460px) translateZ(0px);
+}
 
+@media only screen and (max-width: 1366px)
+constructed stylesheet
+#scroller {
+    width: 22900px;
+    height: 23050px;
+}
+
+#scroller {
+    position: absolute;
+    z-index: 4;
+    width: 22600px;
+    height: 22900px;
+    overflow: hidden;
+}
 
 
 
