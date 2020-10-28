@@ -83,7 +83,7 @@ p, a {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: white;}
+.dropdown-content a:hover {background-color: white; opacity: 0.5;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
