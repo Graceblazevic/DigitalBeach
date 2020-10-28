@@ -31,65 +31,7 @@ p {
 
 
 
-element.style {
-    display: block;
-}
 
-#credits {
-    position: absolute;
-    width: 286px;
-    height: auto;
-    background: rgba(255,255,255, 0.6);
-    z-index: 4;
-    left: 20px;
-    top: 40px;
-    padding: 15px;
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-
-body {
-    overflow: hidden;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    opacity: 1;
-    transition: 1.5s opacity;
-    background: #606060;
-    user-select: none;
-}
-
-#show-credits {
-    left: 0;
-    position: absolute;
-    z-index: 5;
-    font-family: 'Oroban-Masuria';
-    font-size: var(--font-size);
-    margin: 10px 15px 10px 15px;
-}
-
-.active {
-    text-decoration: underline;
-}
-
-p, a {
-    text-decoration: none;
-    color: var(--font-color);
-    font-family: 'Oroban-Masuria';
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-a:-webkit-any-link {
-    cursor: pointer;
-
-}
 
 
 
