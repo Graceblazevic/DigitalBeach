@@ -5,55 +5,70 @@ $(document).ready(function () {
 
 
 // new for background image drag //
+// Pre-select elements
+var map = $("#map"),
+    canvas = map.find(".map-canvas");
 
-$(document).ready(function(){
-    var $bg = $('.bg-img'),
-        origin = {x: 0, y: 0},
-        start = {x: 0, y: 0},
-        movecontinue = false;
+// Calculate canvas constraints
+var maxLeft = map.width()-canvas.width(),
+    maxTop = map.height()-canvas.height();
 
-    function move (e){
-        var moveby = {
-            x: origin.x - e.clientX,
-            y: origin.y - e.clientY
-        };
-
-        if (movecontinue === true) {
-            start.x = start.x - moveby.x;
-            start.y = start.y - moveby.y;
-
-            $(this).css('background-position', start.x + 'px ' + start.y + 'px');
+// Make canvas draggable
+canvas.draggable({
+    drag: function(e, ui) {
+        // Check if canvas is within constraints
+        if (ui.position.left > 0) {
+            ui.position.left = 0;
+        } else if (ui.position.left < maxLeft) {
+            ui.position.left = maxLeft;
         }
-
-        origin.x = e.clientX;
-        origin.y = e.clientY;
-
-        e.stopPropagation();
-        return false;
-    }
-
-    function handle (e){
-        movecontinue = false;
-        $bg.unbind('mousemove', move);
-
-        if (e.type == 'mousedown') {
-            origin.x = e.clientX;
-            origin.y = e.clientY;
-            movecontinue = true;
-            $bg.bind('mousemove', move);
-        } else {
-            $(document.body).focus();
+        if (ui.position.top > 0) {
+            ui.position.top = 0;
+        } else if (ui.position.top < maxTop) {
+            ui.position.top = maxTop;
         }
-
-        e.stopPropagation();
-        return false;
     }
-
-    function reset (){
-        start = {x: 0, y: 0};
-        $(this).css('backgroundPosition', '0 0');
-    }
-
-    $bg.bind('mousedown mouseup mouseleave', handle);
-    $bg.bind('dblclick', reset);
 });
+
+// Create simple dot marker
+$("<div></div>")
+    .addClass("map-marker")
+    .appendTo(canvas)
+    .offset(function(){
+        return { left: 150, top: 150 };
+    })
+    // Append a label
+    .append("<span><- Dot</span>");
+
+// Create draggable Google Maps pin marker
+var pin =
+$("<div></div>")
+    .addClass("google-pin")
+    .appendTo(canvas)
+    .offset(function(){
+        return { left: 50, top: 50 };
+    })
+    // Bind mouseup/down for visual confirmation of grab
+    .bind({
+        mousedown: function(){
+            var os = pin.offset();
+            pin.offset(function(){
+                return { top: os.top-3 };
+            });
+        },
+        mouseup: function(){
+            var os = pin.offset();
+            pin.offset(function(){
+                return { top: os.top+3 };
+            });
+        }
+    })
+    // Make it draggable
+    .draggable({
+        start: function(e,ui){
+            ui.helper.offset(function(){
+                return { top: ui.offset.top-2 };
+            });
+        },
+        container: canvas
+    });
