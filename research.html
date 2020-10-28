@@ -6,8 +6,7 @@
   <link rel="icon" href="assets/info/info6.jpeg"
   <meta name="viewport" content="initial-scale=1">
   <link rel="stylesheet" href="./styles/research.css">
-  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-  <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="./js/jquery.ui.touch-punch.min.js"></script>
 </head>
 
@@ -41,5 +40,30 @@
 
 
 </div>
+
+<script>
+
+var clicked = false, clickY;
+$(document).on({
+    'mousemove': function(e) {
+        clicked && updateScrollPos(e);
+    },
+    'mousedown': function(e) {
+        clicked = true;
+        clickY = e.pageY;
+    },
+    'mouseup': function() {
+        clicked = false;
+        $('html').css('cursor', 'auto');
+    }
+});
+
+var updateScrollPos = function(e) {
+    $('html').css('cursor', 'row-resize');
+    $(window).scrollTop($(window).scrollTop() + (clickY - e.pageY));
+}
+
+
+</script>
 </body>
 </html>
