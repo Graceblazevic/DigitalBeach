@@ -29,48 +29,6 @@ p {
 }
 
 
-element.style {
-    display: block;
-}
-
-#credits {
-    position: absolute;
-    width: 286px;
-    height: auto;
-    background: rgba(255,255,255, 0.6);
-    z-index: 4;
-    left: 20px;
-    top: 40px;
-    padding: 15px;
-    display: none;
-}
-
-
-* {
-
-    box-sizing: border-box;
-}
-
-
-#show-credits {
-    left: 70;
-    position: absolute;
-    z-index: 15;
-    font-family: 'Oroban-Masuria';
-    font-size: 12px;
-    margin: 10px 15px 10px 15px;
-}
-
-p, a {
-    text-decoration: none;
-    color: black;
-    font-family: 'Oroban-Masuria';
-}
-
-* {
-
-    box-sizing: border-box;
-}
 
 
 
