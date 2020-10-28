@@ -29,37 +29,16 @@ p {
 }
 
 
-#menu, #copyright {
-    position: absolute;
-    right: 0;
-    z-index: 4;
-    text-align: left;
-    margin: 10px 15px 11px 0;
-}
 
 
-#sound-button {
-    width: 100px;
-    display: inline-block;
-    text-align: right;
-}
 
-#menu a {
-    color: var(--font-color);
-    margin-left: 10px;
-    font-family: 'Oroban-Masuria';
-    font-size: var(--font-size);
-    user-select: auto;
-}
 
-#music {
-    visibility: hidden;
-}
 
-audio {
-    width: 300px;
-    height: 54px;
-}
+
+
+
+
+
 
 
 
