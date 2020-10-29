@@ -29,7 +29,13 @@ h1 {
 
 
 
+.shell {
+position: absolute;
+left:800px;
+top:600px;
+z-index:5;
 
+}
 
 
 
