@@ -2,8 +2,8 @@
 html {
   scroll-behavior: auto;
 /*   height: 2000px; */
-  margin:0;
-  padding:0;
+  margin:5;
+  padding:5;
 }
 
 
@@ -13,7 +13,7 @@ body {
   background-image: url("../assets/background/img7.jpg");
  overflow: scroll;
  font-family:"Courier New", Courier, monospace;
- color: white;
+ color: black;
 }
 
 
