@@ -62,23 +62,6 @@ float: left;
 
 
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-/*  float: left; */
-top: 30000;
-  width: 25%;
-  padding: 2px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-
 
 
 
