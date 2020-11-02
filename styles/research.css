@@ -15,7 +15,7 @@ body {
   width: 100%;
    background-repeat: repeat;
   overflow: scroll;
- font-family: 'Architects Daughter', cursive;
+ font-family: 'Archivo Narrow', sans-serif;
   color: white;
 }
 
@@ -23,7 +23,7 @@ body {
 
 h1 {
   color: black;
- font-family: 'Architects Daughter', cursive;
+ font-family: 'Archivo Narrow', sans-serif;
   font-size: 12px;
 }
 

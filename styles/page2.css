@@ -12,20 +12,20 @@ body {
  color: black;
   background-image: url("../assets/background/img3.jpg");
  overflow: scroll;
- font-family: 'Architects Daughter', cursive;
+ font-family: 'Archivo Narrow', sans-serif;
  color: black;
 }
 
 
 h1 {
  color: white;
- font-family: 'Architects Daughter', cursive;
+ font-family: 'Archivo Narrow', sans-serif;
  font-size: 12px;
 }
 
 
 p {
- font-family: 'Architects Daughter', cursive;
+ font-family: 'Archivo Narrow', sans-serif;
   color: #f4f3ef;
   text-align: left;
 /*  font-size: 9px; */
