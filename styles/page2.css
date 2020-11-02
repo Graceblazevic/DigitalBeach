@@ -25,7 +25,7 @@ h1 {
 
 
 p {
-  font-family:"Courier New", Courier, monospace;
+ font-family: 'Work Sans', sans-serif;
   color: #f4f3ef;
   text-align: left;
 /*  font-size: 9px; */
@@ -49,6 +49,7 @@ body {
 
 a {
   color: pink;
+   font-family: 'Work Sans', sans-serif;
 }
 
 
