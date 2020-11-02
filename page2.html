@@ -23,7 +23,7 @@
   </div>
 </div>
 
-<div class="dropdown" id="About">
+<div class="dropdown" id="about">
   <button class="dropbtn">About</button>
 </div>
 
@@ -176,13 +176,35 @@ var updateScrollPos = function(e) {
     $(window).scrollLeft($(window).scrollLeft() + (clickX - e.pageX));
 }
 
+$("img").click(function(event){
+  event.preventDefault();
+});
+
 $('html').click(function() {
         $('#audio').trigger("play");
     });
 
-    $('#about').click(function() {
-            $('.textbox').toggle();
-        });
+
+        $('#about').on('click', function()
+{
+
+  var register = $('.textbox');
+
+  // register is not visible lets make it visible.
+  if(register.css('opacity') === '0')
+  {
+    register.css({
+      'opacity': '1',
+    });
+  }
+  else //We know the opacity is not 0 lets make it 0.
+  {
+    register.css({
+      'opacity': '0'
+    });
+  }
+});
+
 
 
 </script>
