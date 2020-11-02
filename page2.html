@@ -14,14 +14,18 @@
 
 
 <!--- DROP DOWN BOX ---->
-  <div class="dropdown">
-    <button class="dropbtn">Index</button>
-    <div class="dropdown-content">
-      <a href="index.html">Home</a>
-      <a href="page2.html">Waves & Shells</a>
-      <a href="research.html">Research</a>
-    </div>
+<div class="dropdown">
+  <button class="dropbtn">Index</button>
+  <div class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="page2.html">Waves & Shells</a>
+    <a href="research.html">Research</a>
   </div>
+</div>
+
+<div class="dropdown" id="About">
+  <button class="dropbtn">About</button>
+</div>
 
 <audio id="audio" src="assets/ocean.mp3" autoplay loop></audio>
 
@@ -158,6 +162,7 @@ $(document).on({
     'mousedown': function(e) {
         clicked = true;
         clickY = e.pageY;
+        clickX = e.pageX;
     },
     'mouseup': function() {
         clicked = false;
@@ -168,11 +173,16 @@ $(document).on({
 var updateScrollPos = function(e) {
     $('html').css('cursor', 'row-resize');
     $(window).scrollTop($(window).scrollTop() + (clickY - e.pageY));
+    $(window).scrollLeft($(window).scrollLeft() + (clickX - e.pageX));
 }
 
 $('html').click(function() {
         $('#audio').trigger("play");
     });
+
+    $('#about').click(function() {
+            $('.textbox').toggle();
+        });
 
 
 </script>
