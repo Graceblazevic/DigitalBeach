@@ -46,6 +46,12 @@ body {
 
 
 
+
+a {
+  color: pink;
+}
+
+
 .textbox{
   background-color: white;
  width: 500px;
