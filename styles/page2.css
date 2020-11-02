@@ -58,6 +58,7 @@ a {
  border: 3px solid #e1d8d3;
  padding: 20px;
  margin: 50px;
+ opacity: 0.5;
 float: left;
  font-family:"Courier New", Courier, monospace;
  line-height: 1.3;
