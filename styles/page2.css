@@ -56,6 +56,21 @@ a {
 }
 
 
+.LearnMoreTxt{
+    margin-top: 15px;
+    margin-left: 730px;
+      color: pink;
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+    font-size: 25px;
+font-family: font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+
+
+
+
 .textbox{
   background-color: ;
  width: 500px;
