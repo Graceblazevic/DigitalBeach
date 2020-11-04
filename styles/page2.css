@@ -2,7 +2,7 @@
 html {
   scroll-behavior: auto;
 /*   height: 2000px; */
-height: 5600px;
+
   margin:0;
   padding:0;
 }
@@ -60,10 +60,12 @@ a {
 .LearnMoreTxt{
     margin-top: 5px;
     margin-left: 330px;
-      color: pink;
+    left:20px;
+    top:500px
+      color: grey;
     text-decoration: none;
     font-size: 15px;
-font-family: font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Archivo Narrow', sans-serif;
 }
 
 
