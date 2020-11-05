@@ -47,14 +47,14 @@ body {
 }
 
 
-
+/*
 a {
-  color: #92a8bd;
+color: #92a8bd;
  font-family: font-family: 'Archivo Narrow', sans-serif;
  right: 330px;
  top: 15px;
 }
-
+*/
 
 
 .LearnMoreTxt{
@@ -89,10 +89,27 @@ font-family: 'Archivo Narrow', sans-serif;
 
 
 
+.cam {
+position:absolute;
+left:500px;
+top:760px;
+
+}
+
+.app {
+  color: white;
+  font-family: font-family: 'Archivo Narrow', sans-serif;
+    font-size: 15px;
+}
 
 
 
+.ascii {
+  position:absolute;
+  left:90px;
+  top:510px;
 
+}
 
 
 
