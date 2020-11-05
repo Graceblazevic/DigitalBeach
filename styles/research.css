@@ -80,13 +80,13 @@ font-family: 'Archivo Narrow', sans-serif;
   color: #92a8bd;
 }
 
-.LearnMoreTxt{
-    margin-top: 5px;
-    margin-left: 330px;
+.kbeach{
       color: #92a8bd;
-    text-decoration: none;
     font-size: 15px;
 font-family: 'Archivo Narrow', sans-serif;
+position:absolute;
+left:500px;
+top:510px;
 }
 
 
