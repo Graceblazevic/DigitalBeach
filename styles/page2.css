@@ -50,7 +50,7 @@ body {
 
 
 a {
-  color: pink;
+  color: #92a8bd;
  font-family: font-family: 'Archivo Narrow', sans-serif;
  right: 330px;
  top: 15px;
@@ -74,7 +74,7 @@ font-family: 'Archivo Narrow', sans-serif;
 .textbox{
   background-color: ;
  width: 500px;
- border: 3px solid #e1d8d3;
+ border: 3px solid #2b2a2a;
  padding: 20px;
  margin: 50px;
  /*float: left; */
