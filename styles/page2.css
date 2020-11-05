@@ -112,6 +112,33 @@ top:760px;
 }
 
 
+/* unvisited link */
+a:link {
+  color: #92a8bd;
+}
+
+/* visited link */
+a:visited {
+  color: pink;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+
+
+
+
+
+
+
 
 
 
