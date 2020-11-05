@@ -48,7 +48,6 @@ body {
 
 
 
-
 a {
   color: #92a8bd;
  font-family: font-family: 'Archivo Narrow', sans-serif;
@@ -57,18 +56,15 @@ a {
 }
 
 
+
 .LearnMoreTxt{
     margin-top: 5px;
     margin-left: 330px;
-      color: pink;
+      color: #92a8bd;
     text-decoration: none;
     font-size: 15px;
 font-family: 'Archivo Narrow', sans-serif;
 }
-
-
-
-
 
 
 .textbox{
@@ -89,6 +85,13 @@ font-family: 'Archivo Narrow', sans-serif;
 .textbox {
   opacity: 0;
 }
+
+
+
+
+
+
+
 
 
 

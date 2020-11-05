@@ -16,7 +16,7 @@ body {
   background-repeat: repeat;
   overflow: scroll;
  font-family: 'Archivo Narrow', sans-serif;
-  color: white;
+color: #92a8bd;
 }
 
 
@@ -33,7 +33,7 @@ h1 {
 
 
 a {
-  color: pink;
+  color: #92a8bd;
  font-family: font-family: 'Archivo Narrow', sans-serif;
  right: 330px;
  top: 15px;
@@ -76,9 +76,18 @@ font-family: 'Archivo Narrow', sans-serif;
 
 
 
+.google {
+  color: #92a8bd;
+}
 
-
-
+.LearnMoreTxt{
+    margin-top: 5px;
+    margin-left: 330px;
+      color: #92a8bd;
+    text-decoration: none;
+    font-size: 15px;
+font-family: 'Archivo Narrow', sans-serif;
+}
 
 
 
