@@ -86,10 +86,8 @@ made.. </b>
 
 
 
-
 </div>
 <script>
-
 var clicked = false, clickY;
 $(document).on({
     'mousemove': function(e) {
@@ -98,6 +96,7 @@ $(document).on({
     'mousedown': function(e) {
         clicked = true;
         clickY = e.pageY;
+        clickX = e.pageX;
     },
     'mouseup': function() {
         clicked = false;
@@ -108,8 +107,41 @@ $(document).on({
 var updateScrollPos = function(e) {
     $('html').css('cursor', 'row-resize');
     $(window).scrollTop($(window).scrollTop() + (clickY - e.pageY));
+    $(window).scrollLeft($(window).scrollLeft() + (clickX - e.pageX));
 }
 
+$("img").click(function(event){
+  event.preventDefault();
+});
+
+$('html').click(function() {
+        $('#audio').trigger("play");
+    });
+
+
+        $('#about').on('click', function()
+{
+
+  var register = $('.textbox');
+
+  // register is not visible lets make it visible.
+  if(register.css('opacity') === '0')
+  {
+    register.css({
+      'opacity': '1',
+    });
+  }
+  else //We know the opacity is not 0 lets make it 0.
+  {
+    register.css({
+      'opacity': '0'
+    });
+  }
+});
+
+
+
 </script>
+
 </body>
 </html>
