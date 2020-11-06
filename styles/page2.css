@@ -68,12 +68,11 @@ font-family: 'Archivo Narrow', sans-serif;
 
 
 .textbox{
-  background-color: ;
+  background-color: #92a8bd;
  width: 500px;
  border: 3px solid #2b2a2a;
  padding: 20px;
  margin: 50px;
- /*float: left; */
  font-family: 'Archivo Narrow', sans-serif;
  line-height: 1.3;
    color: #e1d8d3;
@@ -106,8 +105,8 @@ top:360px;
 
 .ascii {
   position:absolute;
-  left:210px;
-  top:190px;
+  left:2320px;
+  top:690px;
 }
 
 
