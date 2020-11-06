@@ -87,8 +87,6 @@ font-family: 'Archivo Narrow', sans-serif;
 }
 
 
-
-
 .cam {
 position:absolute;
 left:500px;
@@ -99,7 +97,9 @@ top:760px;
 .app {
   color: white;
   font-family: font-family: 'Archivo Narrow', sans-serif;
-    font-size: 15px;
+  left:500px;
+  top:925px;
+  position:absolute;
 }
 
 
@@ -107,8 +107,18 @@ top:760px;
 .ascii {
   position:absolute;
   left:90px;
-  top:510px;
+  top:410px;
+}
 
+
+.poem {
+  position:absolute;
+  left:2200px;
+  top:2900px;
+  width: 200px;
+  padding: 20px;
+  margin: 50px;
+   color: #e1d8d3;
 }
 
 
