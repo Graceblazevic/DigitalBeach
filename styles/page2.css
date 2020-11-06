@@ -89,16 +89,16 @@ font-family: 'Archivo Narrow', sans-serif;
 
 .cam {
 position:absolute;
-left:500px;
-top:760px;
+left:400px;
+top:660px;
 
 }
 
 .app {
   color: white;
   font-family: font-family: 'Archivo Narrow', sans-serif;
-  left:500px;
-  top:925px;
+  left:400px;
+  top:940px;
   position:absolute;
 }
 
