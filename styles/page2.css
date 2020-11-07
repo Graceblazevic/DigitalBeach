@@ -11,7 +11,8 @@ html {
 body {
  background: white;
  color: black;
-  background-image: url("../assets/background/img3.jpg");
+/* background-image: url("../assets/background/img3.jpg"); */
+background-image: url("../assets/video2.gif");
  overflow: scroll;
  font-family: 'Archivo Narrow', sans-serif;
  color: black;
