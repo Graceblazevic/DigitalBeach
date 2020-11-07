@@ -1,8 +1,7 @@
 
 html {
   scroll-behavior: auto;
-/*   height: 2000px; */
-
+/*height: 2000px; */
   margin:0;
   padding:0;
 }
@@ -11,8 +10,8 @@ html {
 body {
  background: white;
  color: black;
-/* background-image: url("../assets/background/img3.jpg"); */
-background-image: url("../assets/video2.gif");
+
+background-image: url("../assets/background/img3-copy.jpg");
  overflow: scroll;
  font-family: 'Archivo Narrow', sans-serif;
  color: black;
