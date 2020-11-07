@@ -99,6 +99,7 @@ top:360px;
   left:400px;
   top:645px;
   position:absolute;
+
 }
 
 
@@ -123,21 +124,25 @@ top:360px;
 /* unvisited link */
 a:link {
   color: white;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
   color: white;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
   color: #92a8bd;
+    text-decoration: none;
 }
 
 /* selected link */
 a:active {
-  color: pink;
+  color: #B2906F;
+    text-decoration: none;
 }
 
 
