@@ -55,13 +55,13 @@ z-index: 20;
 .textbox{
 background-color: ;
  width: 500px;
- border: 3px solid #9b9a96;
+ border: 5px outset #dfad69;
  padding: 20px;
  margin: 50px;
  /*float: left; */
 font-family: 'Archivo Narrow', sans-serif;
 line-height: 1.3;
-color: #dfad69;
+color:  black;    /*#9b9a96; */
 z-index: 10;
 top; 0:
 left: 100px;
@@ -83,7 +83,7 @@ color: #92a8bd;
 
 .kbeach{
 color: #dfad69;
-font-size: 14px;
+font-size: 20px;
 font-family: 'Archivo Narrow', sans-serif;
 position:absolute;
 left:830px;
@@ -95,6 +95,21 @@ z-index: 10;
 
 
 
+.map {
+color: pink;
+
+}
+
+.mapswell{
+color: pink;
+font-size: 14px;
+font-family: 'Archivo Narrow', sans-serif;
+position:absolute;
+left:3030px;
+top:1570px;
+z-index: 10;
+
+}
 
 
 
