@@ -10,7 +10,7 @@ height: 4500px;
 body {
   background: white;
   color: black;
-  background-image: url("../assets/background/img7.jpg");
+/*  background-image: url("../assets/background/img7.jpg"); */
   background-size: cover;
   width: 100%;
   background-repeat: repeat;
@@ -125,6 +125,9 @@ top:2200px;
   display: inline-block;
   opacity: 0.5;
   z-index: 20;
+  top: 10px;
+  right:30px;
+
 }
 
 /* Dropdown Content (Hidden by Default) */

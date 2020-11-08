@@ -9,10 +9,20 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
   <script src="./js/jquery.ui.touch-punch.min.js"></script>
+  <style>
+#grad1 {
+  width:10000vh;
+ height:10000vh;
+ position:absolute;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#f4f3ef, #92a8bd, #654321);
+  background-image: cover;
+}
+</style>
 </head>
 <body>
 
-
+<div id="grad1"></div>
 
   <div class="dropdown">
     <button class="dropbtn">Index</button>
