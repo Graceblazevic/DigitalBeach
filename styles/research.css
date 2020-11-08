@@ -120,6 +120,74 @@ z-index: 10;
 
 
 
+.ws-turtle1 {
+  width: 30%;
+  position: fixed;
+  top: 20vh;
+  left: 0;
+  /* // Change animation time for the turtle to change speed */
+  animation: swimming-turtle 13s infinite;
+}
+
+
+/* Change the rotation to make the turtle swim in the right direction  */
+@keyframes swimming-turtle {
+  0% {
+    margin-left: -30vw;
+    margin-top: 0;
+    transform: rotate(25deg) scaleX(1);
+  }
+
+  25% {
+    margin-left: 50vw;
+    margin-top: 20%;
+    transform: rotate(25deg) scaleX(1);
+  }
+
+  50% {
+    margin-left: 120vw;
+    margin-top: 10%;
+    transform: rotate(0deg) scaleX(1);
+  }
+
+  51% {
+    transform: rotate(0deg) scaleX(-1);
+  }
+
+  75% {
+    margin-left: 50vw;
+    margin-top: 15%;
+    transform: rotate(-25deg) scaleX(-1);
+  }
+
+  100% {
+    margin-left: -30vw;
+    margin-top: 0;
+    transform: rotate(0deg) scaleX(-1);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a:link {
   color: white;
     text-decoration: none;
