@@ -126,7 +126,7 @@ z-index: 10;
   top: 20vh;
   left: 0;
   /* // Change animation time for the turtle to change speed */
-  animation: swimming-turtle 13s infinite;
+  animation: swimming-turtle 15s infinite;
 }
 
 
