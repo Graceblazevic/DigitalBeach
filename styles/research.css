@@ -95,6 +95,26 @@ z-index: 10;
 
 
 
+
+.cam {
+position:absolute;
+left:500px;
+top:3060px;
+/*box-shadow: 10px 10px 5px black; */
+}
+
+
+.app {
+  color: white;
+  font-family: font-family: 'Archivo Narrow', sans-serif;
+  left:400px;
+  top:645px;
+  position:absolute;
+
+}
+
+
+
 .map {
 color: pink;
 
